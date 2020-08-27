@@ -1,5 +1,5 @@
 #include "MS5837.h"
-#include <Wire.h>
+#include <i2c_driver_wire.h>
 
 #define MS5837_ADDR               0x76  
 #define MS5837_RESET              0x1E
